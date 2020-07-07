@@ -84,6 +84,7 @@ app.get('/cipher', (req, res) => {
 
 });
 
+//Assignment 3
 app.get('/lotto', (req, res) => {
 
   const {numbers} = req.query;
